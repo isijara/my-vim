@@ -2,7 +2,7 @@ set encoding=utf-8
 let g:rehash256 = 1
 set t_Co=256
 colorscheme molokai
-execute pathogen#infect()
+" execute pathogen#infect()
 filetype plugin indent on
 set nocompatible
 set backspace=indent,eol,start
