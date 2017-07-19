@@ -1,6 +1,4 @@
-# my-vim
-
-Installation instructions:
+## Install
 
 1.- ./install.sh
 
