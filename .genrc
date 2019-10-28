@@ -1,0 +1,28 @@
+#!/bin/bash
+
+alias dps="docker ps"
+alias dops="docker ps"
+
+alias dpsa="docker ps -a"
+alias dopsa="docker ps -a"
+
+alias please="sudo"
+
+function dres() {
+  docker restart "$@"
+}
+
+function dlogsf() {
+  docker logs "$@" -f
+}
+
+function dlogs() {
+  docker logs "$@"
+}
+
+function dockerit() {
+  docker exec -it "$@" bash
+}
+
+
+
