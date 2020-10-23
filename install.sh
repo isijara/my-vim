@@ -13,3 +13,10 @@ cd fonts
 # clean-up a bit
 cd ..
 rm -rf fonts
+
+
+echo "Installing oh-myzsh"
+
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
